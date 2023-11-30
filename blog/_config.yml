@@ -62,7 +62,5 @@ ignore: null
 theme: butterfly
 deploy:
   type: git
-  repo: 
-    vps: root@blog.unbalancedcat.cn:/root/hexo_static.git
-    github: git@github.com:UnbalancedCat/BHKBlog.git
+  repo: root@blog.unbalancedcat.cn:/root/hexo_static.git
   branch: main
