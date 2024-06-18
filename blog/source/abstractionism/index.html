@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>理塘经典</title>
+
+	<style type="text/css">
+	  @import url("css/main.css");
+	</style>
+	
+</head>
+	
+	
+<body>
+	
+	<div style="height: auto; width: 100%;">
+		
+		<div>
+			<img src="pic/header.png" width="100%">
+			<span style="position: absolute; top: 10px; left: 87%; width: auto;">
+				<!--
+				<div style="margin-left: 10px; border-bottom: 2px #EEE; float: left;">
+					<button type="button" onclick="signin()" style="border: 0px; margin: auto; background: rgba(54,54,54,0.5); border-radius: 0px 0px 10px 10px; padding: 5px; color: rgba(38,38,38,1.00); font-size: 18px; color: #D3D3D3">&nbsp;登 录&nbsp;</button>
+				</div>
+				<div style="margin-left: 10px; border-bottom: 2px #EEE;  float: left;">
+					<button type="button" onclick="signin()" style="border: 0px; margin: auto; background: rgba(54,54,54,0.5); border-radius: 0px 0px 10px 10px; padding: 5px; color: rgba(38,38,38,1.00); font-size: 18px; color: #D3D3D3">&nbsp;注 册&nbsp;</button>
+				</div>
+				-->
+			</span>
+			
+			<div class="mask" id="item">
+				  	<div class="popup">
+						<div id="popup-header" style="color: white; padding: 3px 0px 0px 8px; margin: auto;">
+					 		<span>登录</span>
+							<div style="margin: 80px 10px 20px 90px;">
+								用户名：<input type="text" name="username" id="username" value="" />
+							</div>
+							<div style="margin: 0px 10px 20px 90px;">
+								密&nbsp;&nbsp;&nbsp;码：<input type="text" name="password" id="password" value="" />
+							</div>
+							<div style="margin: 0px 10px 20px 90px;">
+								<input type="button" onclick="log()" value="登录">
+							</div>
+							
+					 		<div id="popup-header-closebutn" onclick="popdown()"><b>×</b></div>
+						</div>
+				  	</div>
+			</div>
+		</div>
+	</div>
+	
+ 	<div class="container">
+		
+		
+		<div class="sidebar" style="height: 2000px;">
+			
+			<div class="row" style="border-bottom: 5px solid #1F1F1F; margin-bottom: 0px; padding: 0px -1px 0px 10px; border-radius: 10px 10px 0px 0px; background: rgba(255,255,255,0.1);">
+				<h2 style="margin: auto; padding: 10px 0px 10px 0px;"><a href="https://www.zhihu.com/question/552690502" target="new" style="color: white; text-decoration: none; border-bottom: 1px solid #EEE;">最新热评</a></h2>
+			</div>
+			
+			<div class="row" style="border-radius: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
+				&nbsp;
+			</div>
+			
+			<div class="row" style="border-radius: 0px 0px 10px 10px;">
+				<marquee id="mask-extra" width="100%" height="600px" scrolldelay="200" direction="up" onMouseMove="this.stop()" onMouseOut="this.start()" behavior="scroll" loop="-1">
+				
+							<div style="margin: 20px 0px 0px 10px; padding-top: 20px; height: auto; font-size: 12px;">
+								<div class="elem" style="height: auto; padding: 10px 0px 10px 20px">
+									<div class="headportrait"><img src="pic/headportrait/吨吨吨吨吨.png" width="100%" alt=""></div>
+									<div class="nickname">&nbsp;吨吨吨吨吨</div><br><br>
+									<div class="content">
+										&nbsp;&nbsp;&nbsp;&nbsp;美国说唱为什么到中国营养不良，因为美国说唱是老黑们在枪支弹药炸鸡和毒品谋杀犯罪的土壤里成长起来的当然不符合我们的社会现状而这首歌就是我们的土壤里成长出来的，中文说唱由此成长起来了，因为有土壤如果说美国说唱背后的土壤是横飞的子弹和抽大了的罪犯那我们说唱背后的土壤就是阶级割裂...</div>
+								</div>
+								
+								<div class="elem" style="height: auto; padding: 10px 0px 0px 20px">
+									<div class="headportrait"><img src="pic/headportrait/问天.png" width="100%" alt=""></div>
+									<div class="nickname">&nbsp;问天</div><br><br>
+									<div class="content">
+										&nbsp;&nbsp;&nbsp;&nbsp;直说吧。中文说唱为什么发展不起来，为什么无数标榜自己real的rapper从来都不是真real。你每天揪着跟自己有关的鸡毛蒜皮骂来骂去，谁看多了不腻啊？现在你身边发生了什么，你是眼瞎吗？不会写吗？为什么不唱？因为怂...</div>
+								</div>
+								
+								<div class="elem" style="height: auto; padding: 10px 0px 10px 20px">
+									<div class="headportrait"><img src="pic/headportrait/王子军.png" width="100%" alt=""></div>
+									<div class="nickname">&nbsp;王子军</div><br><br>
+									<div class="content">
+										&nbsp;&nbsp;&nbsp;&nbsp;谢邀。好歌。以前有友人跟我说：国内用户，确实山猪吃不了细糠。意思是，很多很潮的音乐风格，国内没受众，圈子太小推不开。有段时间，我隐约觉得这话有道理。例如阿姆的说唱，好听，我也存了无损，也经常循环。但就是听一个热闹。听完身子抖一抖，忘了。我不爱吃spaghetti，没住过mobile home，那些词敲在我耳朵上，留不下痕迹...</div>
+								</div>
+								
+								<div class="elem" style="height: auto; padding: 10px 0px 10px 20px">
+									<div class="headportrait"><img src="pic/headportrait/Dtruth.png" width="100%" alt=""></div>
+									<div class="nickname">&nbsp;Dtruth</div><br><br>
+									<div class="content">
+										&nbsp;&nbsp;&nbsp;&nbsp;直说吧。中文说唱为什么发展不起来，为什么无数标榜自己real的rapper从来都不是真real。你每天揪着跟自己有关的鸡毛蒜皮骂来骂去，谁看多了不腻啊？现在你身边发生了什么，你是眼瞎吗？不会写吗？为什么不唱？因为怂。没错，就是因为怂。人各有志，安慰自己是常态也是权利，但是靠安慰自己就是没办法进步。你要是怂，就只能止步于此...</div>
+								</div>
+							</div>
+						</marquee>
+			</div>
+			
+			<div class="row" style="">&nbsp;</div>
+			<div class="row" style="">&nbsp;</div>
+		</div>
+	
+		
+		
+		
+		<div class="middle">
+			<div class="row" style="border-radius: 0px 0px 10px 10px;  background: rgba(255,255,255,0.1);">
+				<div class="nav">
+					<div><a class="font-nav" href="index.html" style="border-bottom: 1px solid #EEE;">首&nbsp;&nbsp;页</a></div>   
+					<div><a class="font-nav" href="https://music.163.com/#/playlist?id=7512656304" target="new" aria- style="border-bottom: 1px solid #EEE;">音&nbsp;&nbsp;乐</a></div>         
+					<div><a class="font-nav" href="https://space.bilibili.com/1463028352?spm_id_from=333.337.0.0" target="new" style="border-bottom: 1px solid #EEE;">视&nbsp;&nbsp;频</a></div>      
+					<div><a class="font-nav" href="https://weibo.com/n/%E7%90%86%E5%A1%98%E4%B8%81%E7%9C%9F" target="new" style="border-bottom: 1px solid #EEE;">关&nbsp;&nbsp;于</a></div>         
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="elem" style="margin-left:10px; display: flex; height: auto; background: rgba(255,255,255,0.00);">
+					<div style="width: 70%; height: auto; float: left; margin: 0px 0px 10px 30px; padding-bottom: 30px;">
+						<div class="content" style="text-align: center; margin-bottom: 10px; padding-bottom: 10px; color: white;">
+							<h1 style="font-size: 48px">《 I GOT SMOKE 》</h1>
+							<h2>斩获第 1376 届格莱美说唱钻石单曲奖</h2>
+						</div>
+						<video width="100%" src="I Got Smoke.mp4" controls="controls" autoplay="autoplay" loop="loop" ></video>
+						
+					</div>
+					
+					<div style="width: 30%; height: auto; padding: 20px 0px 0px 35px;">
+						<img src="pic/album1.png" width="90%" alt="">
+						<div style="text-align: left; color: aliceblue; width: 90%; font-size: 15px;">
+							<p>
+								&nbsp;&nbsp;&nbsp;&nbsp;21 年的夏天找找用《Zood》开创了一个全新的时代，独特的风格，抽象的腔调，让人在听到的一瞬宛如哥伦布发现新大陆一般，但时至今日，在《Zood》诞世的四百多天里，它就像一座让人向往却又望而生畏的山峰，尽管挑战者们蜂拥而至，可真正能够越其峰芒的又有谁人？<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;但今天，历史将成为过去。如果说《Zood》是手工作业的话，那么这首《I Got Smoke》就绝对称得上是工业革命，无可匹敌的填词，毫不糊弄的时长，恰到好处的 MV，十年烟龄的腔调，更强的攻击性，作者醉后的录制更是为该曲添上了一笔犹如王羲之随手兰亭序般的传奇色彩，正如燃佬自己所说的一样，他们也许能杀死他的播放量，但杀不死他这个创作者，真正的经典必将在时间的长河中永世长存，《Zood》开创了时代，而这首《I Got Somke》超越了时代！
+							</p>
+							</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row" style="">&nbsp;</div>
+			
+			<div class="row" style="height: auto; margin: 0px; border-radius: 10px 10px 0px 0px; background: rgba(255,255,255,0.1);">
+				<div class="elem" style="height: auto; width: auto; margin-left: 10px; background: rgba(255,255,255,0); margin: 0px 0px 0px 10px; padding-top: 0px; border-radius: 0px;">
+					<div class="content" style="height: auto; width: auto;">
+						<h1><a href="hof.html" target="new" style="color: aliceblue; text-decoration: none; border-bottom: 2px solid #EEE;">名人堂</a></h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row" style="margin-top: 5px; background: rgba(255,255,255,0.05); border-radius: 0px 0px 10px 10px;">
+				<div class="elem" style="margin-left:10px; height: auto; ; background: rgba(255,255,255,0.05); text-align: center; margin-bottom: 80px; padding-top: 12px;">
+					<img src="pic/singer/50 Cent.png" width="95%">
+					<div style="color: aliceblue; text-align: center">
+						<h3>50 Cent</h3>
+						<p>“他的说唱就像当年的我，年少轻狂且叛逆愤怒、内心炙热，更厉害的是，他甚至同时道出了深刻的禅意和人生哲理，这意境和功力令我嫉妒和惭愧。”</p>
+					</div>
+				</div>
+				
+				<div class="elem" style="margin-top: 50px; height: auto; background: rgba(255,255,255,0.04);padding-top: 12px; text-align: center;">
+					<img src="pic/singer/eminem.png" width="95%" alt="">
+					<div style="color: aliceblue; text-align: center">
+						<h3>EMINEM</h3>
+						<p>“很多人都问过我《RAP GOD》是不是在说我自己，在今天我听完《I got smoke》后可以负责任的说：这首歌描述的是这个叫丁真的中国小伙子！”</p>
+					</div>
+				</div>
+				
+				<div class="elem" style="height: auto; background: rgba(255,255,255,0.05); text-align: center; margin-bottom: 80px; padding-top: 12px;">
+					<img src="pic/singer/Taylor Swift.png" width="95%">
+					<div style="color: aliceblue; text-align: center">
+						<h3>Taylor Swift</h3>
+						<p>“相比起丁真的《I got smoke》，我的那些所谓风靡世界的音乐简直太小儿科了。”</p>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="row" style="">&nbsp;</div>
+			
+			<div class="row" style="height: auto; margin: 0px; border-radius: 10px 10px 0px 0px; background: rgba(255,255,255,0.1);">
+				<div class="elem" style="height: auto; width: auto; margin-left: 10px; background: rgba(255,255,255,0); margin: 0px 0px 0px 10px; padding-top: 0px; border-radius: 0px;">
+					<div class="content" style="height: auto; width: auto;">
+						<h1>往期精选</h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row" style="height: auto; border-radius: 0px 0px 10px 10px; margin-top: 5px;">
+					
+				<div style="margin: 10px; width= 260px;"><img src="pic/album2.png" width="260px"></div>
+				<div class="content" style="text-align: center; width: auto; margin: auto;">
+					
+					<p style="letter-spacing: 6px; line-height: 26px;">
+					如果说《1376心想事成》是西藏人民给祖国华夏美好的祝愿<br>那么《Zood》就是对于丁真文化最好的一个出口。<br>
+					这首歌不仅仅是对于24kGoldn的旋律的一种传承，一种文化的传承<br>还有加入了很多传承的攒在。
+					</p>
+				</div>
+					
+			</div>
+			
+			<div class="row" style="height: auto; border-radius: 10px; margin-top: 5px;">
+					
+				<div style="margin: 10px; width= 260px;"><img src="pic/album3.png" width="260px"></div>
+				<div class="content" style="text-align: center; width: auto; margin: auto;">
+					
+					<p style="letter-spacing: 3px; line-height: 24px;">
+						世界级说唱大师Jay-Z是这么评价的：<br>
+						<b>“把伟大说唱歌手的歌词从伴奏里抽离出来，刻在墙上也依然是非常精彩的诗歌。”</b><br>
+						这首作品真正达到了词、曲、唱的高水准均衡<br>The Kid LAROI、贾斯汀·比伯原曲的专业背书保证了歌曲的旋律性和高级感。<br>
+						拿捏得恰到好处的auto-tune又使其唱腔在像“丁真”的前提下，增添了一丝优雅与神秘。<br>
+					</p>
+				</div>
+					
+			</div>
+			
+			<div class="row" style="height: auto; border-radius: 10px; margin-top: 5px;">
+					
+				<div style="margin: 10px; width= 260px;"><img src="pic/album4.png" width="260px"></div>
+				<div class="content" style="text-align: center; width: auto; margin: auto;">
+					
+					<p style="letter-spacing: 28px; line-height: 21px;">
+						我骑着小马珍珠来到理塘县<br>
+						你可能还不清楚我是谁<br>
+						骑着小马珍珠来到理塘县<br>
+						你可能还不清楚我是谁<br>
+
+					</p>
+				</div>
+					
+			</div>
+		
+			<div class="row" style="">&nbsp;</div>
+			
+			<div class="row">
+				<div class="content" style="margin: auto; text-align: center; color: #5E5E5E;">
+					<div width="100%"> 2022 ❤ 理塘 经典</div>
+					<div>Power by <a href="https://www.adobe.com/cn/products/dreamweaver.html" style="color: #5E5E5E;">DreamWeaver</a></div>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		<div class="sidebar" style="margin: 0px 0px 0px 5px;">
+<!--
+			<div class="row" style="border-bottom: 5px solid #1F1F1F; margin-bottom: 0px; padding: 0px -1px 0px 10px; border-radius: 10px 10px 0px 0px; background: rgba(255,255,255,0.1);">
+				<h2 style="margin: auto; padding: 10px 0px 10px 0px; ">&nbsp;</h2>
+			</div>
+-->
+			<div class="row" style="">&nbsp;</div>
+			<div class="row" style="">&nbsp;</div>
+			
+			<div class="row" style="border-radius: 0px 0px 10px 10px; margin: 0px 0px 0px 0px;">
+				<div class="elem" style="margin-left: 15px;  background: rgba(255,255,255,0.0); text-align: center; height: auto;">
+					<img src="pic/selfphoto.png" width="85%">
+					
+					<div class="content" style="text-align: center; margin: auto; margin-top: 10px; line-height: 27px; font-size: 14px;">
+					
+						<a style="font-size: 23px;letter-spacing: 10px;">丁真珍珠</a><br>
+
+						<b>-  个人简介  -</b><br>
+
+						2001-05-07 金牛座<br>
+						<a style="font-size: 11px;">藏族四川文化旅游宣传推广大使</a><br>
+						中国内地男歌手<br>
+						<a style="font-size: 11px;">生活在四川省甘孜藏族自治州</a><br>
+						理塘县<br>
+						小马永远跑第一! ! ! <br>
+						<br>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row" style="margin-top: 5px;">&nbsp;</div>
+			<div class="row" style="">&nbsp;</div>
+			
+		</div>
+</div>
+	
+</body>
+
+<script type="text/javascript" src="js/main.js"></script>
+</html>
+
