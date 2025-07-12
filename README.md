@@ -1,6 +1,6 @@
 # BHKBlog Gitalk
 
-BHKBlog is a blog that leverages GitHub Issues for comment  management and uses [Gitalk](https://github.com/gitalk/gitalk) to provide a comment system on [blog.unbalancedcat.cn](https://blog.unbalancedcat.cn).
+BHKBlog is a repo that leverages GitHub Issues for comment management and uses [Gitalk](https://github.com/gitalk/gitalk) to provide a comment system on [blog.unbalancedcat.cn](https://blog.unbalancedcat.cn).
 
 ## **THIS REPO IS FOR BHKBLOG GITALK ONLY**
 
